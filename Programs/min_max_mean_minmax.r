@@ -1,0 +1,7 @@
+vec = c(3,5,5,8,9,12,12,13,15,16,17,19,22,24,25,134)
+print(paste("Mean =",mean(vec)))
+print(paste("Max =",max(vec)))
+print(paste("Min =",min(vec)))
+minmax = (vec-min(vec))/(max(vec)-min(vec))
+print("MinMax =")
+print(minmax)
